@@ -15,7 +15,7 @@
   disparity_threshold: 0.3
   disparity_filter_size: 3
   disparity_publish: true
-  car_width: 0.40
+  car_width: 0.50
 
   # Desired Car Velocity based on Error
   error_based_ranges.low: 1.0
