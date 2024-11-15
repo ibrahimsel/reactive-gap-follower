@@ -28,6 +28,6 @@ def generate_launch_description():
             {"racecar_namespace": LaunchConfiguration("racecar_namespace")},
         ],
     )
-    ld.add_action(gap_follower_node)
     ld.add_action(racecar_namespace_arg)
+    ld.add_action(gap_follower_node)
     return ld
