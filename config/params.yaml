@@ -21,8 +21,8 @@
   error_based_ranges.low: 1.0
   error_based_ranges.medium: 3.0
   error_based_ranges.high: 6.0
-  error_based_velocities.low: 1.0
-  error_based_velocities.medium: 1.5
-  error_based_velocities.high: 2.0
+  error_based_velocities.low: 2.0
+  error_based_velocities.medium: 4.0
+  error_based_velocities.high: 6.0
   drive_topic: "drive"
   scan_topic: "scan"
