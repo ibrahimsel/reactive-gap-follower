@@ -213,7 +213,7 @@ public:
             ackermann_drive_result.drive.speed = ErrorBasedVelocities["high"];
         }
         drive_pub_->publish(ackermann_drive_result);
-        // RCLCPP_INFO(this->get_logger(), "Reactive steering angle: %f", angle);
+        RCLCPP_INFO(this->get_logger(), "Reactive steering angle: %f", angle);
     }
 };
 
