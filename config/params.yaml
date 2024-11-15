@@ -58,5 +58,6 @@
   error_based_velocities.high: 7.0
 
 /**:
-  drive_topic: "drive"
-  scan_topic: "scan"
+  ros__parameters:
+    drive_topic: "drive"
+    scan_topic: "scan"
